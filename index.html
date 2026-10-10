@@ -42,11 +42,14 @@
             align-items: center;
             margin-bottom: 50px;
         }
-
-        .profile-photo {
-            width: 250px;
-            border-radius: 6px;
-        }
+        
+.profile-photo {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
 
         h1 {
             margin: 0 0 10px;
@@ -102,11 +105,13 @@
 </head>
 
 <body>
-  <header>
 
-        profile.jpg
+       
+<header>
+    <img src="profile.jpg" alt="Giovanni Soggia" class="profile-photo">
 
-        <div>
+    <div>
+        
     <nav>
         <a href="index.html">Home</a>
          <a href="research.html">Research</a>
