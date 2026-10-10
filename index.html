@@ -2,123 +2,174 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Giovanni Soggia</title>
+    <title>Giovanni Soggia</title>
 
-<style>
+    <style>
 
-body {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 0 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    color: #222;
-}
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #222;
+        }
 
-header {
-    display: flex;
-    gap: 35px;
-    align-items: center;
-    margin-bottom: 40px;
-}
+        nav {
+            display: flex;
+            gap: 24px;
+            padding: 24px 0;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+        }
 
-.profile-photo {
-    width: 250px;
-    border-radius: 6px;
-}
+        nav a {
+            color: #222;
+            text-decoration: none;
+            font-weight: 600;
+        }
 
-h1 {
-    margin: 0 0 10px;
-}
+        nav a:hover {
+            color: #005a9c;
+        }
 
-.affiliation {
-    color: #666;
-    margin-bottom: 15px;
-}
+        header {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
 
-.links a {
-    margin-right: 15px;
-}
+        .profile-photo {
+            width: 250px;
+            border-radius: 6px;
+        }
 
-h2 {
-    margin-top: 40px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 6px;
-}
+        h1 {
+            margin: 0 0 10px;
+            font-size: 2.2rem;
+        }
 
-a {
-    color: #005a9c;
-    text-decoration: none;
-}
+        .affiliation {
+            color: #666;
+            margin-bottom: 15px;
+        }
 
-a:hover {
-    text-decoration: underline;
-}
+        .links a {
+            margin-right: 15px;
+        }
 
-@media (max-width: 700px) {
-    header {
-        display: block;
-    }
+        h2 {
+            margin-top: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+        }
 
-    .profile-photo {
-        width: 220px;
-        margin-bottom: 20px;
-    }
-}
+        a {
+            color: #005a9c;
+            text-decoration: none;
+        }
 
-</style>
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 700px) {
+
+            header {
+                display: block;
+            }
+
+            .profile-photo {
+                width: 220px;
+                margin-bottom: 20px;
+            }
+        }
+
+    </style>
 
 </head>
 
 <body>
 
-<header>
+    <nav>
+        <a href="index.html">Home</a>
+        research.htmlResearch</a>
+        <a href="CV.pdf" target="_blank">CV</a>
+    </nav>
 
-profile.jpg
+    <header>
 
-<div>
+        profile.jpg
 
-<h1>Giovanni Soggia</h1>
+        <div>
 
-<div class="affiliation">
-Economist, Bank of Italy<br>
-Université de Namur
-</div>
+            <h1>Giovanni Soggia</h1>
 
-<div class="links">
-<a href="CV.pdf">CV</a>
-<a href="mailto:giovanni.soggia@bancaditalia.it">Email</a>
-</div>
+            <div class="affiliation">
+                Economist | Bank of Italy
+            </div>
 
-</div>
+            <div class="links">
+                <a href="CV.pdf" target="_blank">CV</a>
+                <a href="mailto:giovanni.soggia@bancaditalia.it">Email</a>
+            </div>
 
-</header>
+        </div>
 
-<h2>About</h2>
+    </header>
 
-<p>
-I am an economist at the Bank of Italy and a PhD student in Economics at the Université de Namur.
-My research interests include banking, corporate finance, entrepreneurship and regional economics.
-My work combines academic research and policy analysis, with applications to bank supervision,
-credit markets, innovation and regional development.
-</p>
+    <main>
 
-<h2>Research</h2>
+        <h2>About</h2>
 
-<p>
-Research page under construction.
-</p>
+        <p>
+            I am an economist at the Bank of Italy, where I currently serve as
+            Substitute Head of the Regional Economic Analysis and Research Division
+            at the Cagliari Branch. I joined the Bank of Italy in 2012 and have
+            served as Substitute Head of Division since 2022.
+        </p>
 
-<h2>Contact</h2>
+        <p>
+            My research interests include banking, corporate finance,
+            entrepreneurship and regional economics. My work combines
+            academic research and policy analysis, with applications to bank
+            supervision, credit markets, innovation and regional development.
+        </p>
 
-<p>
-<a href="mailto:giovanni.soggia@bancaditalia.it">
-giovanni.soggia@bancaditalia.it
-</a>
-</p>
+        <p>
+            Since 2024, I have also been pursuing a part-time PhD in Economics
+            at the Université de Namur.
+        </p>
+
+    </main>
+
+    <footer>
+
+        <p>
+            <a href="mailto:giovanni.soggia@bancaditalia.it">
+                giovanni.soggia@bancaditalia.it
+            </a>
+        </p>
+
+        <p>
+            The views expressed on this website are personal and do not
+            necessarily reflect those of the Bank of Italy.
+        </p>
+
+    </footer>
 
 </body>
+
 </html>
